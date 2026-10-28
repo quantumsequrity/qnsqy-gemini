@@ -1,0 +1,18 @@
+# The agent never runs qnsqy in its own shell. It uses the strict QNSQY tools,
+# and the user runs every other qnsqy command in a separate terminal window.
+# This is a guard against mistakes, not a security boundary.
+
+[[rule]]
+toolName = "run_shell_command"
+commandPrefix = ["qnsqy", "sudo qnsqy", "doas qnsqy", "env qnsqy", "exec qnsqy", "nohup qnsqy", "nice qnsqy", "time qnsqy", "command qnsqy"]
+decision = "deny"
+priority = 900
+denyMessage = "The QNSQY extension does not let the agent run qnsqy in its shell. Use the strict QNSQY tools, or give the user the hand-off to run qnsqy in a separate terminal window outside Gemini CLI."
+
+# The same for a path to qnsqy, such as /usr/bin/qnsqy or ./qnsqy.
+[[rule]]
+toolName = "run_shell_command"
+commandRegex = '[^\s"]*/qnsqy(?:[\s"]|\\")'
+decision = "deny"
+priority = 900
+denyMessage = "The QNSQY extension does not let the agent run qnsqy in its shell. Use the strict QNSQY tools, or give the user the hand-off to run qnsqy in a separate terminal window outside Gemini CLI."

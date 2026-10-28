@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "qnsqy",
+  "description": "QNSQY on your own Linux computer: scan for quantum-vulnerable cryptography (CycloneDX CBOM), encrypt to a public key, verify signatures and hashes. Its tools take no passwords, passphrases, private keys, API keys or payment tokens."
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "qnsqy-strict": {
+      "command": "qnsqy",
+      "args": [
+        "--mcp-profile=strict"
+      ]
+    }
+  }
+}

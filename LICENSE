@@ -1,0 +1,14 @@
+QNSQY PROPRIETARY LICENSE
+
+Copyright (c) 2026 Quantum Sequrity. All rights reserved.
+
+1. The QNSQY program, which this extension starts and which you install
+   separately, is licensed under the QNSQY end-user license agreement:
+   https://quantumsequrity.com/terms
+
+2. This extension (its context file, skill, configuration and policy files,
+   README, logo and this LICENSE) may be used only to connect Gemini CLI or
+   Antigravity CLI to the official QNSQY program. No other rights are granted.
+
+3. Source access for security audit is available on request:
+   security@quantumsequrity.com
