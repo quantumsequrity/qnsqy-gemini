@@ -7,8 +7,9 @@ Copyright (c) 2026 Quantum Sequrity. All rights reserved.
    https://quantumsequrity.com/terms
 
 2. This extension (its context file, skill, configuration and policy files,
-   README, logo and this LICENSE) may be used only to connect Gemini CLI or
-   Antigravity CLI to the official QNSQY program. No other rights are granted.
+   README, logo and this LICENSE) may be used only to connect Gemini CLI,
+   Antigravity CLI or another AI assistant to the official QNSQY program. No
+   other rights are granted.
 
 3. Source access for security audit is available on request:
    security@quantumsequrity.com
